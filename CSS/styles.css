@@ -30,17 +30,6 @@ body {
   width: 100%;
 }
 
-.Navi-start {
-  height: 40px;
-  width: 100%;
-  margin: 0px;
-  text-align: right;
-  color: #f2d974;
-  padding-top: 20px;
-  list-style-type: none;
-  background-color: white;
-}
-
 /*Kontaktformular*/
 
 .div-header {
@@ -114,7 +103,7 @@ textarea {
   width: 200px;
   height: 200px;
   position: relative;
-  top: 20px;
+  top: 60px;
 }
 
 .Ich {
@@ -264,14 +253,16 @@ td {
 
 /*Navigaton Seite: Über mich*/
 
-.Navi-oben {
+.seitennavigation {
   height: 40px;
   width: 100%;
-  margin: 0px;
+
   text-align: right;
   color: #f2d974;
-  padding-top: 20px;
+  padding: 10px;
   list-style-type: none;
+  position: fixed;
+  background-color: #dbf0f3;
 }
 
 .Navigation-About {
@@ -339,12 +330,24 @@ ul {
   text-decoration: none;
 }
 
-a:link {
-  text-decoration: none;
+.footerelemente a:link {
   color: #ffffff;
 }
 
+a:link {
+  text-decoration: none;
+  color: #023a3a;
+}
+
+a:visited {
+  color: #b2b3b3;
+}
+
 a:hover {
+  color: #f2d974;
+}
+
+a:active {
   color: #f2d974;
 }
 
